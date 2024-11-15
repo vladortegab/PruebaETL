@@ -37,9 +37,8 @@ Este proyecto consiste en una aplicación que gestiona y ejecuta procesos ETL (E
 
 Para instalar las librerías necesarias, ejecuta el siguiente comando:
 
-    ```bash
+    ```
     pip install pandas sqlalchemy pymysql mysql-connector-python
-   
     ```
 
 ## Configuración 
@@ -66,7 +65,6 @@ _Config_
         DB_PASSWORD = "tu_password*"
         DB_NAME = "films"
         CSV_FILES = ['customer.csv', 'film.csv', 'inventory.csv', 'rental.csv', 'store.csv']
-   
     ```
 
 
