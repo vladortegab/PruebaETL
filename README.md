@@ -46,10 +46,10 @@ Para instalar las librerías necesarias, ejecuta el siguiente comando:
 # 1. Clonar el Repositorio
 Clona el repositorio en tu máquina:
 
-    ```bash
+    ```
     git clone https://github.com/vladortegab/PruebaETL
     cd Prueba Tecnica
-   
+    ```
     
     
 
@@ -59,7 +59,7 @@ Crea un usuario en MySQL (o usa un usuario existente) y otórgale permisos sufic
 Actualiza las credenciales de conexión en el archivo de configuración de la aplicación o directamente en el código en la clase 
 _Config_
 
-    ```bash
+    ```
     class Config:
     DB_HOST = "localhost"
         DB_USER = "root"
@@ -74,7 +74,7 @@ _Config_
 Ejecuta el script SQL para crear las tablas:
 
 
-    ```bash
+    ```
     mysql -u root -p < scripts/filmase.sql
     Nota: Cambia root y password según sea necesario.
    
