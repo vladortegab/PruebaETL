@@ -11,7 +11,7 @@ import os
 class Config:
     DB_HOST = "localhost"
     DB_USER = "root"
-    DB_PASSWORD = "Admin123*"
+    DB_PASSWORD = "tu_password*"
     DB_NAME = "films"
     CSV_FILES = ['customer.csv', 'film.csv', 'inventory.csv', 'rental.csv', 'store.csv']
 
