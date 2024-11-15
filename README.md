@@ -50,7 +50,7 @@ Clona el repositorio en tu máquina:
     git clone https://github.com/vladortegab/PruebaETL
     cd Prueba Tecnica
    
-    ```
+    
     
 
 # 2. Configurar MySQL
